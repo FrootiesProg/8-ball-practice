@@ -1,0 +1,38 @@
+.app {
+  text-align: center;
+}
+
+.EightBall {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.message {
+  text-align: center;
+  padding: 10px;
+}
+
+.color-box-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.color-box {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+button {
+  margin-top: 20px;
+}
